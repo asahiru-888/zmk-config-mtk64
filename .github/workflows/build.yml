@@ -25,15 +25,25 @@ jobs:
           
           case "${BRANCH_NAME}" in
             "right_left") ZIP_NAME="mtk64ebt_Right_Left.zip" ;;
+            "right_left_paw3222") ZIP_NAME="mtk64ebt_Right_Left_paw3222.zip" ;;
             "right_left_foot") ZIP_NAME="mtk64ebt_Right_Left_Foot.zip" ;;
+            "right_left_foot_paw3222") ZIP_NAME="mtk64ebt_Right_Left_Foot_paw3222.zip" ;;
             "right_left_dongle") ZIP_NAME="mtk64ebt_Right_Left_Dongle.zip" ;;
+            "right_left_dongle_paw3222") ZIP_NAME="mtk64ebt_Right_Left_Dongle_paw3222.zip" ;;
             "right_left_dongle-display") ZIP_NAME="mtk64ebt_Right_Left_Dongle_display.zip" ;;
+            "right_left_dongle-display_paw3222") ZIP_NAME="mtk64ebt_Right_Left_Dongle_display_paw3222.zip" ;;
             "right_left_dongle-display_foot") ZIP_NAME="mtk64ebt_Right_Left_Dongle_disp_foot.zip" ;;
+            "right_left_dongle-display_foot_paw3222") ZIP_NAME="mtk64ebt_Right_Left_Dongle_disp_foot_paw3222.zip" ;;
             "right_left_left-ball") ZIP_NAME="mtk64ebt_Right_Left_leftball.zip" ;;
+            "right_left_left-ball_paw3222") ZIP_NAME="mtk64ebt_Right_Left_leftball_paw3222.zip" ;;
             "right_left_dongle-display_left-ball") ZIP_NAME="mtk64ebt_Right_Left_Dongle_disp_leftball.zip" ;;
+            "right_left_dongle-display_left-ball_paw3222") ZIP_NAME="mtk64ebt_Right_Left_Dongle_disp_leftball_paw3222.zip" ;;
             "right_left_dongle-mdbt50q_rx") ZIP_NAME="mtk64ebt_Right_Left_Dongle-mdbt50q_rx.zip" ;;
+            "right_left_dongle-mdbt50q_rx_paw3222") ZIP_NAME="mtk64ebt_Right_Left_Dongle-mdbt50q_rx_paw3222.zip" ;;
             "right_left_left-ball_rev3.0") ZIP_NAME="mtk64ebt_Right_Left_leftball_rev3.0.zip" ;;
+            "right_left_left-ball_rev3.0_paw3222") ZIP_NAME="mtk64ebt_Right_Left_leftball_rev3.0_paw3222.zip" ;;
             "right_left_dongle-display_left-ball_rev3.0") ZIP_NAME="mtk64ebt_Right_Left_Dongle_disp_leftball_rev3.0.zip" ;;
+            "right_left_dongle-display_left-ball_rev3.0_paw3222") ZIP_NAME="mtk64ebt_Right_Left_Dongle_disp_leftball_rev3.0_paw3222.zip" ;;
             *) ZIP_NAME="mtk64ebt_${BRANCH_NAME_SAFE}.zip" ;;
           esac
           
