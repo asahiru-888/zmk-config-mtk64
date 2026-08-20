@@ -78,8 +78,8 @@
             >;
 
             sensor-bindings = <
-                &scroll_left_right SCRL_LEFT SCRL_RIGHT
-                &scroll_up_down SCRL_UP SCRL_DOWN
+                &inc_dec_kp LA(TAB) LA(LS(TAB))
+                &inc_dec_kp PG_UP PG_DN
             >;
         };
 
