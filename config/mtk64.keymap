@@ -78,7 +78,7 @@
             >;
 
             sensor-bindings = <
-                &inc_dec_kp LA(TAB) LA(LS(TAB))
+                &inc_dec_kp F17 F18
                 &inc_dec_kp PG_UP PG_DN
             >;
         };
